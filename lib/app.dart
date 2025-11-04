@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_learing_practice/class_7/class_3_button.dart';
 import 'package:flutter_learing_practice/home.dart';
 
 class MyApp extends StatelessWidget {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
       // theme: ThemeData(
       //   brightness: Brightness.dark
       // ),
-      home: Home(),
+      home: ButtonGroup(),
 
     );
   }

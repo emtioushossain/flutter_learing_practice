@@ -12,51 +12,241 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.blue,
       ),
 
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        //mainAxisAlignment: MainAxisAlignment.spaceAround,
-        children: [
-          Text(
-            "This is body",
-            style: TextStyle(
-              fontSize: 20,
-              color: Colors.red,
-              fontWeight: FontWeight.bold,
-              wordSpacing: 10,
-              letterSpacing: 10,
+      body: SingleChildScrollView(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          //mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: [
+            SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: Row(
+                children: [
+                  Text(
+                    "This is body",
+                    style: TextStyle(
+                      fontSize: 20,
+                      color: Colors.green,
+                      fontWeight: FontWeight.bold,
+                      wordSpacing: 10,
+                      letterSpacing: 10,
+                    ),
+                  ),
+                  Text(
+                    "This is body",
+                    style: TextStyle(
+                      fontSize: 20,
+                      color: Colors.green,
+                      fontWeight: FontWeight.bold,
+                      wordSpacing: 10,
+                      letterSpacing: 10,
+                    ),
+                  ),
+                  Text(
+                    "This is body",
+                    style: TextStyle(
+                      fontSize: 20,
+                      color: Colors.green,
+                      fontWeight: FontWeight.bold,
+                      wordSpacing: 10,
+                      letterSpacing: 10,
+                    ),
+                  ),
+                  Text(
+                    "This is body",
+                    style: TextStyle(
+                      fontSize: 20,
+                      color: Colors.green,
+                      fontWeight: FontWeight.bold,
+                      wordSpacing: 10,
+                      letterSpacing: 10,
+                    ),
+                  ),
+                  Text(
+                    "This is body",
+                    style: TextStyle(
+                      fontSize: 20,
+                      color: Colors.green,
+                      fontWeight: FontWeight.bold,
+                      wordSpacing: 10,
+                      letterSpacing: 10,
+                    ),
+                  ),
+                  Text(
+                    "This is body",
+                    style: TextStyle(
+                      fontSize: 20,
+                      color: Colors.green,
+                      fontWeight: FontWeight.bold,
+                      wordSpacing: 10,
+                      letterSpacing: 10,
+                    ),
+                  ),
+                  Text(
+                    "This is body",
+                    style: TextStyle(
+                      fontSize: 20,
+                      color: Colors.green,
+                      fontWeight: FontWeight.bold,
+                      wordSpacing: 10,
+                      letterSpacing: 10,
+                    ),
+                  ),
+                  Text(
+                    "This is body",
+                    style: TextStyle(
+                      fontSize: 20,
+                      color: Colors.green,
+                      fontWeight: FontWeight.bold,
+                      wordSpacing: 10,
+                      letterSpacing: 10,
+                    ),
+                  ),
+                  Text(
+                    "This is body",
+                    style: TextStyle(
+                      fontSize: 20,
+                      color: Colors.green,
+                      fontWeight: FontWeight.bold,
+                      wordSpacing: 10,
+                      letterSpacing: 10,
+                    ),
+                  ),
+                ],
+              ),
             ),
-          ),
-          Text(
-            "This is body",
-            style: TextStyle(
-              fontSize: 20,
-              color: Colors.red,
-              fontWeight: FontWeight.bold,
-              wordSpacing: 10,
-              letterSpacing: 10,
+
+            Text(
+              "This is body",
+              style: TextStyle(
+                fontSize: 50,
+                color: Colors.red,
+                fontWeight: FontWeight.bold,
+                wordSpacing: 10,
+                letterSpacing: 10,
+              ),
             ),
-          ),
-          Text(
-            "This is body",
-            style: TextStyle(
-              fontSize: 20,
-              color: Colors.red,
-              fontWeight: FontWeight.bold,
-              wordSpacing: 10,
-              letterSpacing: 10,
+            Text(
+              "This is body",
+              style: TextStyle(
+                fontSize: 50,
+                color: Colors.red,
+                fontWeight: FontWeight.bold,
+                wordSpacing: 10,
+                letterSpacing: 10,
+              ),
             ),
-          ),
-          Text(
-            "This is body",
-            style: TextStyle(
-              fontSize: 20,
-              color: Colors.red,
-              fontWeight: FontWeight.bold,
-              wordSpacing: 10,
-              letterSpacing: 10,
+            Text(
+              "This is body",
+              style: TextStyle(
+                fontSize: 50,
+                color: Colors.red,
+                fontWeight: FontWeight.bold,
+                wordSpacing: 10,
+                letterSpacing: 10,
+              ),
             ),
-          ),
-        ],
+            Text(
+              "This is body",
+              style: TextStyle(
+                fontSize: 50,
+                color: Colors.red,
+                fontWeight: FontWeight.bold,
+                wordSpacing: 10,
+                letterSpacing: 10,
+              ),
+            ),
+            Text(
+              "This is body",
+              style: TextStyle(
+                fontSize: 50,
+                color: Colors.red,
+                fontWeight: FontWeight.bold,
+                wordSpacing: 10,
+                letterSpacing: 10,
+              ),
+            ),
+            Text(
+              "This is body",
+              style: TextStyle(
+                fontSize: 50,
+                color: Colors.red,
+                fontWeight: FontWeight.bold,
+                wordSpacing: 10,
+                letterSpacing: 10,
+              ),
+            ),
+            Text(
+              "This is body",
+              style: TextStyle(
+                fontSize: 50,
+                color: Colors.red,
+                fontWeight: FontWeight.bold,
+                wordSpacing: 10,
+                letterSpacing: 10,
+              ),
+            ),
+            Text(
+              "This is body",
+              style: TextStyle(
+                fontSize: 50,
+                color: Colors.red,
+                fontWeight: FontWeight.bold,
+                wordSpacing: 10,
+                letterSpacing: 10,
+              ),
+            ),
+            Text(
+              "This is body",
+              style: TextStyle(
+                fontSize: 50,
+                color: Colors.red,
+                fontWeight: FontWeight.bold,
+                wordSpacing: 10,
+                letterSpacing: 10,
+              ),
+            ),
+            Text(
+              "This is body",
+              style: TextStyle(
+                fontSize: 50,
+                color: Colors.red,
+                fontWeight: FontWeight.bold,
+                wordSpacing: 10,
+                letterSpacing: 10,
+              ),
+            ),
+            Text(
+              "This is body",
+              style: TextStyle(
+                fontSize: 50,
+                color: Colors.red,
+                fontWeight: FontWeight.bold,
+                wordSpacing: 10,
+                letterSpacing: 10,
+              ),
+            ),
+            Text(
+              "This is body",
+              style: TextStyle(
+                fontSize: 50,
+                color: Colors.red,
+                fontWeight: FontWeight.bold,
+                wordSpacing: 10,
+                letterSpacing: 10,
+              ),
+            ),
+            Text(
+              "This is body",
+              style: TextStyle(
+                fontSize: 50,
+                color: Colors.red,
+                fontWeight: FontWeight.bold,
+                wordSpacing: 10,
+                letterSpacing: 10,
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
