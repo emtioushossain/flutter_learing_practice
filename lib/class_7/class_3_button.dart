@@ -8,6 +8,48 @@ class ButtonGroup extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text("Button Group"), backgroundColor: Colors.blue),
+      drawer: Drawer(
+        child: ListView(
+          children: [
+            UserAccountsDrawerHeader(
+                accountName: Text("Emtious Md Sazzad Hossain") , 
+                accountEmail: Text("test@gmail.com"),
+              currentAccountPicture: CircleAvatar(
+                backgroundImage: NetworkImage("https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg?cs=srgb&dl=pexels-sulimansallehi-1704488.jpg&fm=jpg"),
+              ),
+            ),
+            ListTile(
+              leading: Icon(Icons.add),
+              title: Text("Add"),
+              onTap: (){
+                Navigator.pop(context);
+              },
+            ),
+
+          ],
+        ),
+      ),
+      endDrawer: Drawer(
+        child: ListView(
+          children: [
+            UserAccountsDrawerHeader(
+              accountName: Text("Emtious Md Sazzad Hossain") ,
+              accountEmail: Text("test@gmail.com"),
+              currentAccountPicture: CircleAvatar(
+                backgroundImage: NetworkImage("https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg?cs=srgb&dl=pexels-sulimansallehi-1704488.jpg&fm=jpg"),
+              ),
+            ),
+            ListTile(
+              leading: Icon(Icons.logout),
+              title: Text("Logout"),
+              onTap: (){
+                Navigator.pop(context);
+              },
+            )
+
+          ],
+        ),
+      ),
       body: Center(
         child: Column(
           children: [
