@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+//import 'bottom_navigationbar.dart';
+
 class ButtonGroup extends StatelessWidget {
   const ButtonGroup({super.key});
 
@@ -120,6 +122,15 @@ class ButtonGroup extends StatelessWidget {
           print("Adding with Floating button");
         },
       ),
-    );
+      //bottomNavigationBar: BottomNavigationbar()
+      bottomNavigationBar: BottomNavigationBar(items:
+      [
+        BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home',),
+        BottomNavigationBarItem(icon: Icon(Icons.call), label: 'Call',),
+        BottomNavigationBarItem(icon: Icon(Icons.search), label: 'Search',),
+
+      ]
+      ),
+      );
   }
 }
