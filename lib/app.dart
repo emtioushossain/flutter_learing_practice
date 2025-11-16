@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_learing_practice/class_7/class_3_button.dart';
 
+import 'class_8/class_8_input.dart';
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -12,7 +14,8 @@ class MyApp extends StatelessWidget {
       // theme: ThemeData(
       //   brightness: Brightness.dark
       // ),
-      home: ButtonGroup(),
+
+      home: FlutterInput(),
 
     );
   }
